@@ -15,7 +15,7 @@ int main() {
 	// in non-decreasing order
 	// start the iteration from the end of the list
 	// and change the value of 'k' elements into 'x'
-	// to achieve the minimum total time desired
+	// to achieve the minimum total time needed by Luba
 	for (int i = n - 1; i >= 0; i--) {
 		if (k > 0) {
 			a[i] = x;
